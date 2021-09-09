@@ -1,0 +1,214 @@
+
+/* CONTAINER */
+
+.container {
+
+    padding: 3% 15% 7%;
+}
+
+/* HTML ELEMENTS */
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Montserrat';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading {
+    font-family: 'Montserrat'; 
+    font-size: 3.5rem; 
+    line-height: 1.5; 
+    font-weight: 900;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* TITLE  */
+
+.title-image {
+    position: absolute;
+    right: 20%;
+    transform: rotate(25deg);
+    width: 20%;
+    
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+   
+}
+
+/* FEATURES IMG */
+
+.features-img {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    
+}
+
+.features-img:hover{
+    color: #ff4c68;
+}
+
+/* FEATURES */
+
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+    text-align: center;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+    
+}
+
+.testimg {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* PRESS */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* PRICING */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+.randomp {
+    margin-bottom: 57px;
+}
+
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;   
+}
+
+.cta-h3 {
+    
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+    
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.footer-p {
+    padding-top: 3rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1030px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+    
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    
+}
